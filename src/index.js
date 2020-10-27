@@ -4,14 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { ConfigProvider, Button } from 'antd';
+import { ConfigProvider } from 'antd';
 import ruRU from 'antd/lib/locale/ru_RU';
 
 ReactDOM.render(
   <React.StrictMode>
-		<ConfigProvider locale={ruRU}>
-			<Button type="primary">Button</Button>
-		
+		<ConfigProvider locale={ruRU}>		
 			<App />
 		</ConfigProvider>
   </React.StrictMode>,
